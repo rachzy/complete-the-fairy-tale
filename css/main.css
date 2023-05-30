@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Charm&family=Pinyon+Script&family=Playfair+Display&display=swap");
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #866124;
+  box-sizing: border-box;
+
+  font-family: "Alice", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+  transition: 0.5s all;
+}
+
+body.fadeIn {
+  animation: fadeIn 2s;
+}
+
+body.fadeOut {
+  animation: fadeOut 0.8s;
+}
+
+h1,
+h1 span {
+  font-family: "Pinyon Script", sans-serif;
+  font-size: 5vmax;
+  font-weight: 100;
+
+  letter-spacing: 0;
+
+  text-align: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 3vmax;
+  font-weight: 100;
+
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 920px) {
+  body {
+    overflow-y: scroll;
+  }
+}
