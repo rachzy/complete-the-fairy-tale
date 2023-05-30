@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Charm&family=Pinyon+Script&family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #866124;
+  box-sizing: border-box;
+
+  font-family: "Alice", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+
+  overflow: hidden;
+}
+
+h1,
+h1 span {
+  font-family: "Pinyon Script", sans-serif;
+  font-size: 5vmax;
+  font-weight: 100;
+
+  letter-spacing: 0;
+
+  text-align: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 3vmax;
+  font-weight: 100;
+
+  text-align: center;
+  align-items: center;
+}
+
+div.flores-container {
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 100vw;
+  height: 40vh;
+
+  margin-bottom: 5vh;
+}
+
+div.flores-container img {
+  object-fit: contain;
+}
+
+div.flores-container div {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+div.objetos-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 2vh;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  margin: auto;
+}
+
+button#objeto {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+
+  background: none;
+  border: none;
+
+  transition: 0.2s all;
+  cursor: pointer;
+
+  flex: 1;
+}
+
+button#objeto img {
+  width: 20vh;
+}
+
+button#objeto p {
+  font-family: "Charm", sans-serif;
+  font-size: 3.5vh;
+}
+
+button#objeto:hover {
+  transform: scale(1.05);
+}
+
+footer img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 920px) {
+  body {
+    overflow-y: scroll;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.flores-container {
+    width: 100%;
+  }
+
+  div.flores-container div {
+    width: 100%;
+  }
+  div.flores-container img {
+    display: none;
+  }
+}
