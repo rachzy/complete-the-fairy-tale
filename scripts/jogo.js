@@ -1,3 +1,4 @@
+import { setarAcertos } from "./resultado.js";
 import shuffleArray from "./shuffleArray.js";
 
 const perguntas = [
@@ -32,8 +33,8 @@ const perguntas = [
         got into the grandmother’s bed, expecting Little Red Riding Hood, who came some time 
         afterwards and knocked at the door. Tap, tap, tap. \n “It is your grandchild, Little 
         Red Riding Hood.” \n The wolf cried out, “Pull the string, and the latch will go up.” 
-        \n Little Red Riding Hood pulled the string, and the door opened.`,
-    opcoes: ["ate", "grandchild", "good"],
+        \n Little Red Riding Hood pulled the <question>, and the door opened.`,
+    opcoes: ["ate", "shut", "string"],
     banner: "cv4.png",
   },
   {
@@ -80,12 +81,27 @@ const banner = document.querySelector("#banner");
 const seta = document.querySelector(".seta");
 
 let perguntaAtual = 0;
+let pontos = 0;
+
+function verificarRespostas() {
+  const opcoes = document.querySelectorAll("span");
+
+  opcoes.forEach((opcao, index) => {
+    if (opcao.textContent !== perguntas[perguntaAtual].opcoes[index]) pontos++;
+  });
+}
 
 function cliqueSeta() {
   if (!seta.classList.contains("active")) return;
+  seta.classList.remove("active");
+
+  verificarRespostas();
+
+  if (perguntaAtual >= perguntas.length - 1) {
+    return setarAcertos(pontos);
+  }
 
   perguntaAtual++;
-
   setarPergunta();
 }
 

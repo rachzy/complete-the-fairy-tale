@@ -88,3 +88,118 @@ button.seta.active {
   opacity: 100%;
   cursor: pointer;
 }
+
+div.resultado-container {
+  display: none;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+div.resultado-container h2#acertos {
+  color: #866124;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.resultado-container div.flores-container {
+  display: flex;
+
+  position: absolute;
+
+  width: 100vw;
+  height: 100vh;
+
+  z-index: -1;
+}
+
+div.resultado-container div.flores-container img {
+  position: absolute;
+
+  width: 30vh;
+  height: 30vh;
+}
+
+div.resultado-container div.flores-container img.flor-1 {
+  top: 0;
+  left: 0;
+}
+
+div.resultado-container div.flores-container img.flor-2 {
+  top: 0;
+  right: 0;
+}
+
+div.resultado-container div.flores-container img.flor-3 {
+  bottom: 0;
+  left: 0;
+}
+
+div.resultado-container div.flores-container img.flor-4 {
+  bottom: 0;
+  right: 0;
+}
+
+div.resultado-container div.resultado-box {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: #866124;
+  color: white;
+
+  border-radius: 3vh;
+  padding: 4vh;
+
+  width: 60vh;
+}
+
+div.resultado-container div.resultado-box img {
+  width: 100%;
+  margin-block: 5vh;
+}
+
+div.resultado-container div.resultado-box h3 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 5vh;
+}
+
+div.resultado-container div.resultado-box p,
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+div.resultado-container div.resultado-box div {
+  text-align: justify;
+}
+
+div.resultado-container div.resultado-box div h2 {
+  font-weight: bold;
+  margin-block: 2vh;
+
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+div.resultado-container div.resultado-box div p {
+  font-size: 2.5vh;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+    margin-top: 4vh;
+  }
+
+  div.metade-container {
+    width: 100%;
+  }
+}

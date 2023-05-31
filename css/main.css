@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alice&family=Charm&family=Pinyon+Script&family=Playfair+Display&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Charm&family=Open+Sans:wght@800&family=Pinyon+Script&family=Playfair+Display&display=swap");
 @keyframes fadeIn {
   0% {
     opacity: 0%;
@@ -15,6 +14,17 @@
   }
   100% {
     opacity: 0%;
+  }
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
+      0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px orange, 0 0 40px orange,
+      0 0 50px orange, 0 0 60px orange, 0 0 70px orange, 0 0 80px orange;
   }
 }
 
