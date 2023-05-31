@@ -100,11 +100,6 @@ div.resultado-container {
   height: 100vh;
 }
 
-div.resultado-container h2#acertos {
-  color: #866124;
-  font-family: "Open Sans", sans-serif;
-}
-
 div.resultado-container div.flores-container {
   display: flex;
 

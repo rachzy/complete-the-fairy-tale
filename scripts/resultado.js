@@ -1,6 +1,5 @@
 const metadeContainers = document.querySelectorAll(".metade-container");
 const resultadoContainer = document.querySelector(".resultado-container");
-const acertos = document.querySelector("#acertos");
 
 const score = document.querySelector("#score");
 const levelLabel = document.querySelector("#level");
@@ -51,16 +50,6 @@ export function setarAcertos(quantidade) {
     score.textContent = quantidade;
     levelLabel.textContent = level.titulo;
     desc.textContent = level.description;
-    acertos.textContent = `${
-      level.minimoAcertos < 10
-        ? `0${level.minimoAcertos}`
-        : `${level.minimoAcertos}`
-    } 
-    a ${
-      level.maximoAcertos < 10
-        ? `0${level.maximoAcertos}`
-        : `${level.maximoAcertos}`
-    } acertos`;
 
     document.body.style.opacity = "100%";
   }, 500);
