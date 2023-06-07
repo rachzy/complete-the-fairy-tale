@@ -275,6 +275,289 @@ const jogos = [
       },
     ],
   },
+  {
+    id: "hensel-and-gretel",
+    perguntas: [
+      {
+        titulo: "Once Upon a Time...",
+        descricao: `A brother and sister named Hansel and Gretel lived in a hut in the 
+        woods with their <question>. They liked to walk through the forest to pick <question>. 
+        Before they left, the mother always brought a handful of <question> pebbles and said:
+        - Take it and spread it along the way. then go back and collect the pebbles. that 
+        way, there will be no danger of you getting lost.`,
+        opcoes: ["parents", "flowers", "white"],
+        banner: "jm1.png",
+      },
+      {
+        descricao: `That morning, however, the mother did not find the pebbles and handed the
+         children a <question> of breadcrumbs. Hansel and Gretel said <question> to their mother 
+         and father and were happy along the way, singing, watching the trees and the sky, 
+         making little balls with the crumb of bread... `,
+        opcoes: ["handful", "goodbye"],
+        banner: "jm2.png",
+      },
+      {
+        descricao: `When they decided to return home, they noticed a <question> thing: the balls 
+        disappeared. How could this have happened? <question>, they saw a bird carrying a piece 
+        of bread in its beak. At this moment, the two realized that they were lost...`,
+        opcoes: ["strange", "Suddenly"],
+        banner: "jm3.png",
+      },
+      {
+        descricao: `Hansel and Gretel walked all day. And when the <question> was about to set, they saw 
+        a <question> house.`,
+        opcoes: ["sun", "little"],
+        banner: "jm4.png",
+      },
+      {
+        descricao: `It was a funny house, all made of cakes and cookies and sponge cake. 
+        The tiles were made of <question> and the flowers in the garden, of caramels, candies and 
+        sweets. Hansel and Gretel ate a lot, until they heard a hoarse and chilling <question>. \n
+        Hansel and Gretel were startled! And the old woman said:\n
+        - Come in, come in, beautiful children! I will feed and warm you!`,
+        opcoes: ["chocolates", "voice"],
+        banner: "jm5.png",
+      },
+      {
+        descricao: `But appearances are deceiving. In fact, the old woman was a witch, who 
+        loved to devour children. She locked Hansel in a cage and put the girl to work. 
+        The witch's plan was to fatten Hansel up and eat him first. \n
+        Every day, the <question> who couldn't see well said: \n
+        \n
+        Show the little <question> , boy \n
+        I want to know if you're fat \n
+        I'll roast you with fine spices \n
+        There won't be a bit left`,
+        opcoes: ["witch", "finger"],
+        banner: "jm6.png",
+      },
+      {
+        descricao: `Meanwhile, Hansel extended a small <question> bone, and the witch was 
+        furious to feel that the boy did not get fat. After a <question>, she decided she was 
+        going to roast Hansel anyway.`,
+        opcoes: ["chicken", "month"],
+        banner: "jm7.png",
+      },
+      {
+        descricao: `When the witch bent down to see if the oven was ready, Gretel plucked up
+         courage and pushed her with all her might. Then he <question> the oven door and hurried 
+         to free Hansel. The witch <question> , but the children only thought about saving 
+         themselves.`,
+        opcoes: ["locked", "screamed"],
+        banner: "jm8.png",
+      },
+      {
+        descricao: `They were leaving the house, when they saw a huge chest and found a 
+        <question>! They filled two bags with gold coins and precious stones and ran into the 
+        forest. \n
+        At home, their parents were in the kitchen, crying and <question> for their lost children.`,
+        opcoes: ["treasure", "praying"],
+        banner: "jm9.png",
+      },
+      {
+        descricao: `At dusk, Hansel and Gretel arrive, tired but happy, and eat in their 
+        parents' arms. The meeting turned into a party, with lots of <question> and hugs. Soon 
+        after, the parents found the bags thrown at the kitchen door. Opening them, they were
+        <question> at all that wealth.`,
+        opcoes: ["kisses", "amazed"],
+        banner: "jm10.png",
+      },
+    ],
+  },
+  {
+    id: "jack-and-the-beanstalk",
+    perguntas: [
+      {
+        titulo: "Once Upon a Time...",
+        descricao: `There was once a widow and only son, Jack. They lived in the countryside,
+         in a very <question> house. They faced difficult times, since the two had no money to 
+         buy food. \n
+        - Honey, there is no more rice, no more <question> and all supplies. Take our cow, go to 
+        the city and sell the only asset we still have. \n
+        On the way, Jack met a man. He gave Jack some <quesion> beans for the cow. Jack took the 
+        beans and went back home.`,
+        opcoes: ["simple", "beans", "magic"],
+        banner: "jf1.png",
+      },
+      {
+        descricao: `But when he <question> home, Jack’s mother was very angry. She said, “You 
+        fool! He took away your cow and gave you some beans!” She threw the beans out of the
+         window. Jack was very sad and went to sleep <question> dinner." \n
+        The next day, when Jack woke up in the morning and <question> out of the window, he saw 
+        that a huge beanstalk had grown from his magic beans! `,
+        opcoes: ["reached", "without", "looked"],
+        banner: "jf2.png",
+      },
+      {
+        descricao: `It went up into the sky and disappeared among the clouds. Without wasting 
+        <question> moment Jack quickly began climbing. He climbed and climbed. he climbed higher
+        than the houses, higher than the treetops, higher than the clouds. He <question> until
+        he reached the blue sky. There he found a white <question> road and started walking 
+        on it.`,
+        opcoes: ["another", "climbed", "straight"],
+        banner: "jf3.png",
+      },
+      {
+        descricao: `He then saw a <question> with a large <question> standing at the door. 
+        "Good morning!" Jack greeted her politely. "Would you be so kind as to give me some 
+        breakfast?" \n
+        The large woman looked at him and told him to run as fast as he could if he did not 
+        want to become breakfast himself. She also told him her husband was an <question> and he 
+        liked nothing better than fried little boys for his breakfast. \n
+        He pleaded with the Ogre's wife and asked her if she would hide Jack from her husband. `,
+        opcoes: ["castle", "woman", "Ogre"],
+        banner: "jf4.png",
+      },
+      {
+        descricao: `The Ogre's wife was kind, so she took Jack in and gave him some bread 
+        and milk. Just as Jack was finishing his breakfast, he <question> heard a noise. \n
+        It was the Ogre. He was walking on the white road towards the castle. The Ogre's wife
+         grabbed Jack and hid him in a pot. The Ogre came in loudly <question> "I smell an 
+         Englishman. I'll grind his bones and make bread." The Ogre's wife laid down his 
+         breakfast on the table and said "<question>! You are always saying you smell 
+         Englishmen. Now eat your breakfast.`,
+        opcoes: ["suddenly", "singing", "Nonsense"],
+        banner: "jf5.png",
+      },
+      {
+        descricao: `Jack peeped out of his hiding-place and was terrified to see the huge 
+        Ogre. He was big and ugly. After finishing his breakfast the Ogre asked his wife to 
+        bring him his <question> hen while he listened to his daughter playing the harp. He then 
+        fell asleep. \n
+        Jack saw that the Ogre was fast asleep, he quickly came out, climbed the table, and 
+        <question> the golden hen. He ran away from the castle and straight down the road, down
+        the beanstalk to his own garden.`,
+        opcoes: ["golden", "grabbing"],
+        banner: "jf6.png",
+      },
+      {
+        descricao: `Once in his garden he ran to his mother. "Mother, look what I have 
+        brought for you from the top of the beanstalk! " he <question> as he showed her the 
+        golden hen. The poor widow was <question> to have her boy home and now they had money 
+        to buy whatever they needed.`,
+        opcoes: ["exclaimed", "pleased"],
+        banner: "jf7.png",
+      },
+      {
+        descricao: `Jack climbed up the <question> again taking his mom with him and then they 
+        lived in the castle above the beanstalk for the rest of their <question>  .`,
+        opcoes: ["beanstalk", "lives"],
+        banner: "jf8.png",
+      },
+    ],
+  },
+  {
+    id: "rapunzel",
+    perguntas: [
+      {
+        titulo: "Once Upon a Time...",
+        descricao: `a couple lived in a faraway land.  The house next to theirs had a 
+        beautiful garden with lots of fresh fruits, vegetables, herbs, and <question>. The 
+        <question> belonged to a witch, and no one ever dared to enter that garden. One day, 
+        the woman saw a beautiful plant called a rampion, which was used to make salads, in 
+        that garden. She then expressed her desire to make some salad for herself from that 
+        <question> to her husband.`,
+        opcoes: ["flowers", "garden", "plant"],
+        banner: "ra1.png",
+      },
+      {
+        descricao: `Later that night, her husband sneaked into the garden and got the rampions for her wife. 
+        After some time, there was a loud knock on the door. As soon as the <question> opened the 
+        door, he saw the evil witch standing there. \n
+        “Oh, human! How dare you sneak into my garden and steal those rampions like a thief? No 
+        one has ever dared to do that, and I’ll make sure that you suffer for this,” said the 
+        <question> angrily. \n
+        The husband, terrified, started asking for forgiveness from the witch. \n
+        “I am so sorry, but my wife wanted to have rampions, and I could not say no to her,” said
+        the husband. `,
+        opcoes: ["husband", "witch"],
+        banner: "ra2.png",
+      },
+      {
+        descricao: `“Oh!” exclaimed the witch and continued, “Well, in that case, I’ll let you 
+        and your wife have all the rampions in my garden, but on one condition.” \n
+        “What condition?” <question> the couple. \n
+        “You’ll have to give me the child that your wife delivers,” said the witch and left. \n
+        A few months later, the couple gave birth to a  little girl. The same night, the witch 
+        came to their place and took away their <question> and locked her up in a tower.
+        `,
+        opcoes: ["exclaimed", "daughter"],
+        banner: "ra3.png",
+      },
+      {
+        descricao: `After a few years, Rapunzel grew up into the most beautiful young girl 
+        with  long hair. However, she was still stuck in the tower, all <question> and miserable.
+         She often sang sad songs by the window to curb her loneliness. \n
+        Every time the witch visited her, she said, “Rapunzel! Rapunzel! Let down your hair,”
+        and <question> used to let down her hair, and the witch used to climb up with the help 
+        of her hair.`,
+        opcoes: ["lonely", "Rapunzel"],
+        banner: "ra4.png",
+      },
+      {
+        descricao: `One day, a young prince was passing through the forest nearby when he heard 
+        Rapunzel’s <question> voice singing a song. \n
+        “What a beautiful voice!” exclaimed the prince. “Who is singing this beautifully in the 
+        middle of this forest?” \n
+        Curiously, he followed the voice when he came across the tower, in which Rapunzel was 
+        locked. \n
+        “What a strange tower! Why are there no doors in this tower? How am I <question> to know 
+        who this beautiful voice belongs to?” thought the prince to himself.`,
+        opcoes: ["sweet", "supposed"],
+        banner: "ra5.png",
+      },
+      {
+        descricao: `Suddenly, he saw <question> coming and hid behind a nearby tree. \n
+        “Rapunzel! Rapunzel! Let down your hair,” said the witch and climbed up. \n
+        Now, the <question> knew what to do. As soon as the evil witch left, the prince tried repeating 
+        the same things..`,
+        opcoes: ["someone", "prince"],
+        banner: "ra6.png",
+      },
+      {
+        descricao: `“Rapunzel! Rapunzel! Let down your hair,” said the prince, and Rapunzel 
+        let down her hair. The prince climbed upstairs and was stunned by Rapunzel’s beauty. \n
+        “Oh, my lady! You are the girl I have heard, and I have lost my heart to you. Will 
+        you <question> me and live with me in my kingdom? I am a prince from the land next to the 
+        forest,” said the prince. \n
+        “Oh, my Prince! I would love to do that, but I am <question> that the witch won’t let me go out of this tower, and if she comes to know about this, she will kill you”, said Rapunzel, sadly.`,
+        opcoes: ["marry", "afraid"],
+        banner: "ra7.png",
+      },
+      {
+        descricao: `Meanwhile, the witch was watching all this. She immediately <question> up 
+        the tower and got angry at Rapunzel. \n
+        “You are ungrateful! How could you even think of betraying me? You will have to pay 
+        for this,” said the witch angrily. She cut Rapunzel’s long beautiful hair and cast 
+        a spell on her, which left her in the <question> of the desert.`,
+        opcoes: ["climbed", "middle"],
+        banner: "ra8.png",
+      },
+      {
+        descricao: `The next day, when the prince came, he found the witch waiting for him at the tower. 
+        She immediately cast a spell on the prince, which made him blind and left him in a 
+        <question> forest. \n
+        After wandering and living in misery for many years, the prince finally came to a desert
+         where he heard a <question> voice singing. \n
+        “That voice!” exclaimed the prince, “I know that voice! That’s my Rapunzel’s voice. 
+        Where are you, my Rapunzel?”`,
+        opcoes: ["deserted", "similar"],
+        banner: "ra7.png",
+      },
+      {
+        descricao: `He slowly approached the voice, and as soon as Rapunzel saw him, she said, 
+        “Oh my Prince! You finally found me! This is truly <question> ! I am so happy that I 
+        cannot stop crying.” \n
+        As she said this, she hugged the price in happiness, and a few of her tears fell into 
+        the prince’s eyes, and he got his eyesight back. \n
+        “I can see again! Oh, my Rapunzel, you have saved us! Let’s go back to our kingdom,” 
+        said the prince, and both went to the <question> near the forest and lived happily ever 
+        after.`,
+        opcoes: ["magical", "kingdom"],
+        banner: "ra8.png",
+      },
+    ],
+  },
 ];
 
 export default jogos;
