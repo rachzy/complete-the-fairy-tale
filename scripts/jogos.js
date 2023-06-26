@@ -1,3 +1,11 @@
+// Variável que armazena todos os jogos
+// id: o id único do jogo, que o discrimina de outros jogos
+// perguntas: uma array que armazena todas as perguntas que serão feitas
+    // titulo: O título que será exibido, opcional
+    // descricao: Parte da história que será contada nessa pergunta. 
+    // <question>: Indica em que lugar ficará um espaço em branco para que o usuário selecione
+    // opcoes: as opções que iram preencher os espaços em branco
+    // banner: a foto correspondente à questão
 const jogos = [
   {
     id: "the-little-red-riding-hood",
